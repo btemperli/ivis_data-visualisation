@@ -1,4 +1,5 @@
 Zürich
+Zürich
 Bern
 Luzern
 Uri
@@ -12,8 +13,8 @@ Solothurn
 Basel-Stadt
 Basel-Landschaft
 Schaffhausen
-Appenzell A.Rh.
-Appenzell I.Rh.
+Appenzell A. Rh.
+Appenzell I. Rh.
 St. Gallen
 Graubünden
 Aargau
@@ -38,8 +39,8 @@ Solothurn
 Basel-Stadt
 Basel-Landschaft
 Schaffhausen
-Appenzell A.Rh.
-Appenzell I.Rh.
+Appenzell A. Rh.
+Appenzell I. Rh.
 St. Gallen
 Graubünden
 Aargau
