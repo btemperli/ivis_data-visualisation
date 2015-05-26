@@ -1,0 +1,13 @@
+/**
+ * File:    rule.cga
+ * Created: 26 May 2015 10:47:21 GMT
+ * Author:  btemperli
+ */
+
+version "2015.0"
+
+attr hoehe = 10
+
+Form-->color("#ff99cc")
+	extrude(hoehe)
+	Kiste

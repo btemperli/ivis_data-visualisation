@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="10" version="2.0">
+<workbenchAdvisor/>
+<window height="873" maximized="true" width="1440" x="0" y="23">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar/>
+<coolbarLayout locked="0">
+<coolItem itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="additions" itemType="typeSeparator"/>
+<coolItem id="com.procedural.ceui.fileToolbar" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="com.procedural.ceui.editToolbar" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="com.procedural.ceui.toolToolbar" itemType="typeToolBarContribution" x="357" y="22"/>
+<coolItem id="com.procedural.cestreet.createActions" itemType="typeToolBarContribution" x="120" y="22"/>
+<coolItem id="com.procedural.ceui.createShape" itemType="typeToolBarContribution" x="186" y="22"/>
+<coolItem id="com.procedural.cga.engineControl" itemType="typeToolBarContribution" x="173" y="22"/>
+<coolItem id="com.procedural.ceui.environment" itemType="typeToolBarContribution" x="54" y="22"/>
+<coolItem id="com.procedural.lang.cga.editor.editor.cGA" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="40" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.annotationNavigation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.navigation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - /ivis/scenes/ivis.cej">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="com.procedural.cityengine.presentation.CEPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor activePart="true" focus="true" id="com.procedural.lang.cga.editor.editor.cGA" name="wachstum.cga" partName="wachstum.cga" path="/Users/btemperli/fhnw/FS15/ivis/cityengine/ivis/rules/wachstum.cga" title="wachstum.cga" tooltip="ivis/rules/wachstum.cga" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ivis/rules/wachstum.cga"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="92" selectionTopPixel="0"/>
+</editor>
+<editor id="org.python.pydev.editor.PythonEditor" name="csv_import.py" partName="csv_import.py" path="/Users/btemperli/fhnw/FS15/ivis/cityengine/ivis/scripts/csv_import.py" title="csv_import.py" tooltip="ivis/scripts/csv_import.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ivis/scripts/csv_import.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="89" selectionTopPixel="67"/>
+</editor>
+<editor id="com.procedural.cityengine.editors.editor.cEModel" name="ivis.cej" partName="Scene" path="/Users/btemperli/fhnw/FS15/ivis/cityengine/ivis/scenes/ivis.cej" title="Scene" tooltip="ivis/scenes/ivis.cej" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ivis/scenes/ivis.cej"/>
+</editor>
+</editors>
+<views>
+<view id="com.procedural.cityengine.views.view.cE3D:0" partName="Viewport">
+<viewState/>
+</view>
+<view id="com.procedural.ceui.navigator" partName="Navigator">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
+<expanded IMemento.internal.id="/Users/btemperli/fhnw/FS15/ivis/cityengine/ivis"/>
+<expanded IMemento.internal.id="/Users/btemperli/fhnw/FS15/ivis/cityengine/ivis/assets"/>
+<expanded IMemento.internal.id="/Users/btemperli/fhnw/FS15/ivis/cityengine/ivis/data"/>
+<expanded IMemento.internal.id="/Users/btemperli/fhnw/FS15/ivis/cityengine/ivis/rules"/>
+<expanded IMemento.internal.id="/Users/btemperli/fhnw/FS15/ivis/cityengine/ivis/scenes"/>
+<expanded IMemento.internal.id="/Users/btemperli/fhnw/FS15/ivis/cityengine/ivis/scripts"/>
+</viewState>
+</view>
+<view id="org.corebounce.inspectors.view.inspector" partName="Inspector">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.procedural.ceui.navigator" activePerspective="/ivis/scenes/ivis.cej">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor descriptor="com.procedural.cityengine.defaultPerspective" id="/ivis/scenes/cylinder.cej" label="/ivis/scenes/cylinder.cej"/>
+<alwaysOnActionSet id="com.procedural.cityengine.facadewizard.actions.facadeView"/>
+<alwaysOnActionSet id="org.corebounce.actions.inspector"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.procedural.ceui.navigator"/>
+<view id="com.procedural.cityengine.views.view.cE3D:0"/>
+<view id="org.corebounce.inspectors.view.inspector"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="com.procedural.cityengine.defaultPerspective..2">
+<folder activePageID="com.procedural.ceui.navigator" appearance="2" expanded="2">
+<page content="com.procedural.ceui.navigator" label="Navigator"/>
+<presentation id="com.procedural.cityengine.presentation.CEPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="com.procedural.cityengine.defaultPerspective..2">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="com.procedural.cityengine.defaultPerspective..0" ratio="0.72206706" ratioLeft="1034" ratioRight="398" relationship="2" relative="com.procedural.cityengine.defaultPerspective..2">
+<folder activePageID="org.corebounce.inspectors.view.inspector" appearance="2" expanded="2">
+<page content="org.corebounce.inspectors.view.inspector" label="Inspector"/>
+<presentation id="com.procedural.cityengine.presentation.CEPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="com.procedural.cityengine.defaultPerspective..1" ratio="0.28820115" ratioLeft="298" ratioRight="736" relationship="2" relative="com.procedural.cityengine.defaultPerspective..2">
+<folder activePageID="com.procedural.cityengine.views.view.cE3D:0" appearance="2" expanded="2">
+<page content="com.procedural.cityengine.views.view.cE3D:0" label="Viewport"/>
+<presentation id="com.procedural.cityengine.presentation.CEPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.66161615" ratioLeft="524" ratioRight="268" relationship="4" relative="com.procedural.cityengine.defaultPerspective..2"/>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor descriptor="com.procedural.cityengine.defaultPerspective" id="/ivis/scenes/fhnw.cej" label="/ivis/scenes/fhnw.cej"/>
+<alwaysOnActionSet id="com.procedural.cityengine.facadewizard.actions.facadeView"/>
+<alwaysOnActionSet id="org.corebounce.actions.inspector"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.procedural.ceui.navigator"/>
+<view id="com.procedural.cityengine.views.view.cE3D:0"/>
+<view id="org.corebounce.inspectors.view.inspector"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="com.procedural.cityengine.defaultPerspective..2">
+<folder activePageID="com.procedural.ceui.navigator" appearance="2" expanded="2">
+<page content="com.procedural.ceui.navigator" label="Navigator"/>
+<presentation id="com.procedural.cityengine.presentation.CEPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="com.procedural.cityengine.defaultPerspective..2">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="com.procedural.cityengine.defaultPerspective..0" ratio="0.72206706" ratioLeft="1034" ratioRight="398" relationship="2" relative="com.procedural.cityengine.defaultPerspective..2">
+<folder activePageID="org.corebounce.inspectors.view.inspector" appearance="2" expanded="2">
+<page content="org.corebounce.inspectors.view.inspector" label="Inspector"/>
+<presentation id="com.procedural.cityengine.presentation.CEPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="com.procedural.cityengine.defaultPerspective..1" ratio="0.28820115" ratioLeft="298" ratioRight="736" relationship="2" relative="com.procedural.cityengine.defaultPerspective..2">
+<folder activePageID="com.procedural.cityengine.views.view.cE3D:0" appearance="2" expanded="2">
+<page content="com.procedural.cityengine.views.view.cE3D:0" label="Viewport"/>
+<presentation id="com.procedural.cityengine.presentation.CEPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.66161615" ratioLeft="524" ratioRight="268" relationship="4" relative="com.procedural.cityengine.defaultPerspective..2"/>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor descriptor="com.procedural.cityengine.defaultPerspective" id="/ivis/scenes/ivis.cej" label="/ivis/scenes/ivis.cej"/>
+<alwaysOnActionSet id="com.procedural.cityengine.facadewizard.actions.facadeView"/>
+<alwaysOnActionSet id="org.corebounce.actions.inspector"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.procedural.cityengine.views.view.cE3D:0"/>
+<view id="com.procedural.ceui.navigator"/>
+<view id="org.corebounce.inspectors.view.inspector"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="com.procedural.cityengine.defaultPerspective..2">
+<folder activePageID="com.procedural.ceui.navigator" appearance="2" expanded="2">
+<page content="com.procedural.ceui.navigator" label="Navigator"/>
+<presentation id="com.procedural.cityengine.presentation.CEPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1074" ratioRight="358" relationship="2" relative="com.procedural.cityengine.defaultPerspective..2">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="com.procedural.cityengine.defaultPerspective..0" ratio="0.72206706" ratioLeft="1034" ratioRight="398" relationship="2" relative="com.procedural.cityengine.defaultPerspective..2">
+<folder activePageID="org.corebounce.inspectors.view.inspector" appearance="2" expanded="2">
+<page content="org.corebounce.inspectors.view.inspector" label="Inspector"/>
+<presentation id="com.procedural.cityengine.presentation.CEPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="com.procedural.cityengine.defaultPerspective..1" ratio="0.28820115" ratioLeft="298" ratioRight="736" relationship="2" relative="com.procedural.cityengine.defaultPerspective..2">
+<folder activePageID="com.procedural.cityengine.views.view.cE3D:0" appearance="2" expanded="2">
+<page content="com.procedural.cityengine.views.view.cE3D:0" label="Viewport"/>
+<presentation id="com.procedural.cityengine.presentation.CEPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.66161615" ratioLeft="524" ratioRight="268" relationship="4" relative="com.procedural.cityengine.defaultPerspective..2"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.lang.cga.editor.editor.cGA" path="/ivis/rules/rule.cga"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.cityengine.editors.editor.cEModel" path="/ivis/scenes/scene.cej"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.cityengine.editors.editor.cEModel" path="/map/scenes/fhnw.cej"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.cityengine.editors.editor.cEModel" path="/ivis/scenes/fhnw.cej"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.cityengine.editors.editor.cEModel" path="/ivis/scenes/ivis.cej"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.cityengine.editors.editor.cEModel" path="/ivis/scenes/cylinder.cej"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.lang.cga.editor.editor.cGA" path="/ivis/rules/stacked.cga"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.lang.cga.editor.editor.cGA" path="/ivis/rules/wachstum.cga"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/ivis/scripts/csv_import.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.cityengine.editors.editor.cEModel" path="/ivis/scenes/ivis.cej"/>
+</editors>
+<item historyLabel="rule.cga" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="rule.cga" index="0">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="Scene" index="1"/>
+<item historyLabel="rule.cga" index="0">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="Scene" index="1"/>
+<item historyLabel="rule.cga" index="0">
+<position info="not_deleted" x="312" y="0"/>
+</item>
+<item historyLabel="Scene" index="1"/>
+<item historyLabel="rule.cga" index="0">
+<position info="not_deleted" x="43" y="0"/>
+</item>
+<item historyLabel="Scene" index="1"/>
+<item historyLabel="rule.cga" index="0">
+<position info="not_deleted" x="204" y="0"/>
+</item>
+<item historyLabel="Scene" index="1"/>
+<item historyLabel="rule.cga" index="0">
+<position info="not_deleted" x="204" y="0"/>
+</item>
+<item historyLabel="Scene" index="1"/>
+<item historyLabel="rule.cga" index="0">
+<position info="not_deleted" x="205" y="0"/>
+</item>
+<item historyLabel="Scene" index="1"/>
+<item historyLabel="rule.cga" index="0">
+<position info="not_deleted" x="205" y="0"/>
+</item>
+<item historyLabel="Scene" index="2"/>
+<item historyLabel="Scene" index="3"/>
+<item historyLabel="Scene" index="4"/>
+<item historyLabel="Scene" index="5"/>
+<item historyLabel="Scene" index="3"/>
+<item historyLabel="Scene" index="4"/>
+<item historyLabel="stacked.cga" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="wachstum.cga" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="wachstum.cga" index="7">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+<item historyLabel="csv_import.py" index="8">
+<position info="not_deleted" x="193" y="0"/>
+</item>
+<item historyLabel="Scene" index="4"/>
+<item historyLabel="csv_import.py" index="8">
+<position info="not_deleted" x="89" y="0"/>
+</item>
+<item historyLabel="stacked.cga" index="6">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+<item historyLabel="Scene" index="4"/>
+<item historyLabel="stacked.cga" index="6">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+<item historyLabel="Scene" index="4"/>
+<item historyLabel="csv_import.py" index="8">
+<position info="not_deleted" x="89" y="0"/>
+</item>
+<item historyLabel="Scene" index="4"/>
+<item historyLabel="csv_import.py" index="8">
+<position info="not_deleted" x="89" y="0"/>
+</item>
+<item historyLabel="Scene" index="4"/>
+<item historyLabel="csv_import.py" index="8">
+<position info="not_deleted" x="89" y="0"/>
+</item>
+<item historyLabel="Scene" index="3"/>
+<item historyLabel="csv_import.py" index="8">
+<position info="not_deleted" x="89" y="0"/>
+</item>
+<item historyLabel="Scene" index="9"/>
+<item historyLabel="wachstum.cga" index="7">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+<item historyLabel="Scene" index="9"/>
+<item active="true" historyLabel="wachstum.cga" index="7">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="com.procedural.cityengine.defaultPerspective..1"/>
+<trimItem IMemento.internal.id="com.procedural.cityengine.defaultPerspective..0"/>
+<trimItem IMemento.internal.id="com.procedural.cityengine.defaultPerspective..2"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.cityengine.editors.editor.cEModel" name="ivis.cej" tooltip="ivis/scenes/ivis.cej">
+<persistable path="/ivis/scenes/ivis.cej"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.cityengine.editors.editor.cEModel" name="cylinder.cej" tooltip="ivis/scenes/cylinder.cej">
+<persistable path="/ivis/scenes/cylinder.cej"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.cityengine.editors.editor.cEModel" name="fhnw.cej" tooltip="map/scenes/fhnw.cej">
+<persistable path="/map/scenes/fhnw.cej"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.procedural.cityengine.editors.editor.cEModel" name="scene.cej" tooltip="ivis/scenes/scene.cej">
+<persistable path="/ivis/scenes/scene.cej"/>
+</file>
+</mruList>
+</workbench>
