@@ -10,6 +10,8 @@ import csv
 # get a CityEngine instance
 ce = CE()
 
+actualRow = 0
+total = 0
 cntns = {}
 rgns = {}
 
@@ -18,6 +20,9 @@ if __name__ == '__main__':
     try:
         reader = csv.reader(f)
         for row in reader:
+            actualRow += 1
+            if (actualRow == 10):
+                total = row[3]
             try:
                 cntns[float(row[1])] = row
                 rgns[float(row[2])] = row
@@ -33,5 +38,6 @@ if __name__ == '__main__':
         population = []
         for i in range(3,10):
             population.append(int(row[i])) # total | total CH | men CH | women CH | total !CH | men !CH | women !CH
+        ce.setAttribute(state, "TOTAL", int(total))
         ce.setAttribute(state, "POPULATION", population)
         ce.setAttributeSource(state, "POPULATION", "OBJECT")

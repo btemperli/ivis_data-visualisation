@@ -1,9 +1,11 @@
-#Tue May 26 13:55:44 CEST 2015
+#Tue May 26 20:45:53 CEST 2015
 FileExplorer.treeToggle=true
 col_width.com.procedural.ceui.inspectors.ObjectAttributeInspector$OAIRowAdapter.1=150
 col_width.com.procedural.ceui.inspectors.ObjectAttributeInspector$OAIRowAdapter.0=150
+com.procedural.ceui.inspectors.ListEditDialog$3.exp=Shape 2\\;\\;
 Workspace\ Location=/Users/btemperli/fhnw/FS15/ivis/cityengine
 eclipse.preferences.version=1
+col_width.com.procedural.ceui.inspectors.ListEditDialog$3.0=155
 col_width.com.procedural.ceui.inspectors.AbstractRuleChooser$2.1=100
 col_width.com.procedural.ceui.inspectors.AbstractRuleChooser$2.0=20
 col_width.com.procedural.ceui.inspectors.ReportInspector$3.8=45
@@ -22,6 +24,7 @@ col_width.com.procedural.ceui.inspectors.AttributeSourceInspector$AttributeSourc
 col_width.com.procedural.ceui.inspectors.AttributeSourceInspector$AttributeSourceRowAdaper.1=20
 col_width.com.procedural.ceui.inspectors.AttributeSourceInspector$AttributeSourceRowAdaper.0=90
 col_width.org.corebounce.adapters.DoubleArrayRowAdapter.2=80
+col_width.com.procedural.ceui.inspectors.ListEditDialog$3.-1=155
 col_width.org.corebounce.adapters.DoubleArrayRowAdapter.1=80
 view3d.capture.path=/Users/btemperli/fhnw/FS15/ivis/cityengine/ivis/images
 col_width.org.corebounce.adapters.DoubleArrayRowAdapter.0=80
