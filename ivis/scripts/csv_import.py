@@ -31,7 +31,7 @@ if __name__ == '__main__':
         row = cntns[ce.getAttribute(state, 'KTNR')]
         print row[0]
         population = []
-        for i in range(3,9):
+        for i in range(3,10):
             population.append(int(row[i])) # total | total CH | men CH | women CH | total !CH | men !CH | women !CH
         ce.setAttribute(state, "POPULATION", population)
         ce.setAttributeSource(state, "POPULATION", "OBJECT")

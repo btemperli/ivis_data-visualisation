@@ -51,3 +51,29 @@ Wallis
 Neuenburg
 Genf
 Jura
+Zürich
+Bern
+Luzern
+Uri
+Schwyz
+Obwalden
+Nidwalden
+Glarus
+Zug
+Freiburg
+Solothurn
+Basel-Stadt
+Basel-Landschaft
+Schaffhausen
+Appenzell A. Rh.
+Appenzell I. Rh.
+St. Gallen
+Graubünden
+Aargau
+Thurgau
+Tessin
+Waadt
+Wallis
+Neuenburg
+Genf
+Jura
