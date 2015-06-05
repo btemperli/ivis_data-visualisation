@@ -1,0 +1,72 @@
+/**
+ * File:    bevschicht.cga
+ * Created: 26.05.2015
+ * Author:  bbuff, btemperli, cbadoud
+ */
+
+version "2013.0"
+
+attr scaleh = 1000
+attr scalev = 1000
+attr POPULATION(idx) = 0
+attr TOTAL = 0
+attr AREA_HA = 0
+
+Init-->
+	color("#bbbbbb")
+	extrude(0)
+	#offset(-3000) A
+	offset(-AREA_HA / 200) A
+	
+A-->
+	comp(f) { inside: Inner | border: Outer }
+
+Inner-->
+	extrude((POPULATION(4)/TOTAL) * 1000000)
+	split(z) {
+		~ POPULATION(1)/POPULATION(0) : SplitSchweiz |
+		~ POPULATION(4)/POPULATION(0) : SplitAusland
+	}
+
+Outer-->
+	extrude(2000)
+
+SplitSchweiz-->
+	split(x) {
+		~ POPULATION(2)/POPULATION(1) : Colorize("#842828") |
+		~ POPULATION(3)/POPULATION(1) : Colorize("#ee3333")
+	} # men dark, women light
+	
+SplitAusland()-->
+	split(x) {
+		~ POPULATION(5)/POPULATION(4) : Colorize("#55cc55") |
+		~ POPULATION(6)/POPULATION(4) : Colorize("#33ee33")
+	}
+
+Colorize(color)-->
+	color(color)
+
+
+ /*
+Height-->
+	extrude(10000)
+	
+Bar(idx)-->
+	extrude(10000)
+*/
+
+/**
+Init-->
+	color(colorRamp("spectrum",rand()))
+	[State.]
+	center(xz)
+	t('0.5,0,'0.5)
+	rotate(abs, world, 0, 0, 0) 
+	t(scaleh*-YEARS/2,0,0)
+	s(scaleh*YEARS, 0, scaleh*4)
+	i("quad.obj")
+	split(x) {scaleh:Bar(split.index)}*
+		
+Bar(idx)-->
+	extrude(y,scalev*POPULATION(idx) / AREA_HA)
+	*/
